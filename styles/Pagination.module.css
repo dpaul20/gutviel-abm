@@ -1,0 +1,22 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+  flex-wrap: var(--chakra-flex-wrap);
+  background-color: var(--chakra-colors-gray-50);
+}
+
+.pagination li {
+  display: inline-block;
+  margin: 0 0.5rem;
+}
+
+.pagination a,
+.selected {
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+}
+
+.selected {
+  background-color: blue;
+  color: white;
+}
